@@ -29,3 +29,27 @@ body {
   align-items: flex-start;
   /* align-content: space-around; */
 }
+
+.one {
+  /* align-self: center;
+  order: 5; */
+  height: 100px;
+  width: 200px;
+  flex: initial; /* 0 1 auto */
+  flex: auto; /* 1 1 auto */
+  flex: none; /* 0 0 auto */
+  flex: 1; /* 1 1 0 */
+}
+
+.two {
+  height: 100px;
+  width: 200px;
+  flex: auto;
+  flex: 2;
+}
+
+.three {
+  height: 100px;
+  width: 200px;
+  flex: 1;
+}
